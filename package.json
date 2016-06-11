@@ -1,0 +1,28 @@
+{
+	"name": "jcub-game-zero",
+	"version": "0.0.0",
+	"description": "",
+	"keywords": [
+	],
+	"homepage": "https://github.com/fluffybunnies/jcub-game-zero",
+	"author": "j-cub",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:fluffybunnies/jcub-game-zero.git"
+	},
+	"dependencies": {
+		"express": "4.13.4",
+		"minimist": "1.1.1",
+		"sext": "0.1.6"
+	},
+	"devDependencies": {
+		"tape": "4.5.1"
+	},
+	"bugs": {
+		"url": "https://github.com/fluffybunnies/jcub-game-zero/issues"
+	},
+	"scripts": {
+		"test": "node test/test.js"
+	}
+}
